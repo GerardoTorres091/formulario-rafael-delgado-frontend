@@ -26,20 +26,22 @@
                         <label class="label">Barrio o colonia</label>
                         <!-- Select con opciones predefinidas del municipio -->
                         <select v-model="form.colonia" required class="input">
-                            <option value="" disabled selected>Selecciona tu colonia o barrio</option>
-                            <option>Rafael Delgado</option>
-                            <option>Jalapilla</option>
-                            <option>Tzoncolco</option>
-                            <option>Omiquila</option>
-                            <option>Las Sirenas</option>
-                            <option>Hacienda de Jalapilla</option>
-                            <option>Barrio Primero</option>
-                            <option>Sexto Barrio</option>
-                            <option>Ejido Rafael Delgado</option>
-                            <option>Congregación Tzoncolco</option>
-                            <option>Congregación Omiquila</option>
-                            <option>Colonia Quinto</option>
-                            <option>Colonia Novillero Chic</option>
+                            <option value="">Selecciona un barrio</option>
+                            <option value="Primer barrio">Primer barrio</option>
+                            <option value="Segundo barrio">Segundo barrio</option>
+                            <option value="Tercer barrio">Tercer barrio</option>
+                            <option value="Cuarto barrio">Cuarto barrio</option>
+                            <option value="Quinto barrio">Quinto barrio</option>
+                            <option value="Sexto barrio">Sexto barrio</option>
+                            <option value="Novillero">Novillero</option>
+                            <option value="Jalapilla">Jalapilla</option>
+                            <option value="Omiquila">Omiquila</option>
+                            <option value="Tzoncolco">Tzoncolco</option>
+                            <option value="El vidrio">El vidrio</option>
+                            <option value="Boquerpn">Boquerón</option>
+                            <option value="Las sirenas">Las sirenas</option>
+                            <option value="La Luz">La Luz</option>
+                            <option value="La Joya">La Joya</option>
                         </select>
                     </div>
                 </div>
